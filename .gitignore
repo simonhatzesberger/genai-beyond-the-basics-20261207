@@ -1,0 +1,25 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets: never commit keys
+openai_api_key.txt
+*api_key*
+.env
+.env.*
+
+# Files the notebooks write while running
+notebooks/ft_claim_cause_*.jsonl
+notebooks/lora_claim_cause/
+notebooks/_local/
+notebooks/migration_workspace/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

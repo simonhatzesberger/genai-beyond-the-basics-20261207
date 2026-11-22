@@ -1,0 +1,8 @@
+# Optional: part B of 04_fine_tuning (LoRA fine-tuning of a small open-weights model). Preinstalled in Colab.
+# The CPU build of PyTorch is enough (see https://pytorch.org/get-started/locally/); download size about 1 GB
+# including the model weights fetched on first use.          pip install -r requirements-lora.txt
+torch==2.15.0
+transformers==5.24.0
+peft==0.22.0
+datasets==5.2.0
+accelerate==1.16.0

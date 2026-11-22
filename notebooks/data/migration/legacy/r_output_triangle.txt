@@ -1,0 +1,63 @@
+Cumulative Triangle:
+     dev_1 dev_2 dev_3 dev_4 dev_5 dev_6 dev_7 dev_8 dev_9 dev_10
+2010  1001  1855  2423  2788  3068  3220  3324  3396  3435   3456
+2011  1113  2056  2668  3076  3382  3550  3665  3745  3789     NA
+2012  1265  2293  2988  3441  3781  3968  4096  4185    NA     NA
+2013  1490  2674  3450  3961  4344  4555  4699    NA    NA     NA
+2014  1725  3092  3993  4587  5032  5277    NA    NA    NA     NA
+2015  1889  3429  4442  5110  5611    NA    NA    NA    NA     NA
+2016  2105  3801  4918  5654    NA    NA    NA    NA    NA     NA
+2017  2318  4141  5341    NA    NA    NA    NA    NA    NA     NA
+2018  2536  4543    NA    NA    NA    NA    NA    NA    NA     NA
+2019  2804    NA    NA    NA    NA    NA    NA    NA    NA     NA
+
+Development Factors (volume-weighted):
+  from_dev to_dev n_pairs   factor
+1    dev_1  dev_2       9 1.805725
+2    dev_2  dev_3       8 1.294846
+3    dev_3  dev_4       7 1.150109
+4    dev_4  dev_5       6 1.098201
+5    dev_5  dev_6       5 1.049115
+6    dev_6  dev_7       4 1.032106
+7    dev_7  dev_8       3 1.021741
+8    dev_8  dev_9       2 1.011623
+9    dev_9 dev_10       1 1.006114
+
+CDF to Ultimate:
+   dev_period cdf_to_ultimate
+1       dev_1        3.325405
+2       dev_2        1.841590
+3       dev_3        1.422247
+4       dev_4        1.236620
+5       dev_5        1.126041
+6       dev_6        1.073324
+7       dev_7        1.039936
+8       dev_8        1.017808
+9       dev_9        1.006114
+10     dev_10        1.000000
+
+Ultimate Claims by Origin Year:
+   origin_year latest_dev_period latest_observed cdf_to_ultimate ultimate
+1         2010            dev_10            3456        1.000000  3456.00
+2         2011             dev_9            3789        1.006114  3812.16
+3         2012             dev_8            4185        1.017808  4259.52
+4         2013             dev_7            4699        1.039936  4886.66
+5         2014             dev_6            5277        1.073324  5663.93
+6         2015             dev_5            5611        1.126041  6318.21
+7         2016             dev_4            5654        1.236620  6991.85
+8         2017             dev_3            5341        1.422247  7596.22
+9         2018             dev_2            4543        1.841590  8366.34
+10        2019             dev_1            2804        3.325405  9324.44
+   unpaid_claims_reserve
+1                   0.00
+2                  23.16
+3                  74.52
+4                 187.66
+5                 386.93
+6                 707.21
+7                1337.85
+8                2255.22
+9                3823.34
+10               6520.44
+
+Total Unpaid Claims Reserve: 15316.33 

@@ -1,0 +1,13 @@
+# Packages for the notebooks of the EAA web session E0595 "GenAI Beyond the Basics" (7 Dec 2026).
+# Versions as tested on 22 Nov 2026 with Python 3.13.     pip install -r requirements.txt
+# In Google Colab do NOT run this file: Colab ships these packages, and each notebook installs what is missing.
+openai==3.57.0
+pydantic==2.14.4
+pandas==3.1.1
+numpy==2.5.5
+requests==2.34.2
+pymupdf==2.1          # reading PDFs in 05_rag (AGPL-3.0, used unmodified as an installed dependency)
+ollama==0.6.3         # optional local model in 01_foundations_best_practices (needs the Ollama app)
+langgraph==1.2.24     # the multi-agent graph in 06_agentic_ai (preinstalled in Colab)
+jupyterlab==4.6.6
+ipykernel==7.4.0
