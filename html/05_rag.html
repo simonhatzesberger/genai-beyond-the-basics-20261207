@@ -8396,8 +8396,8 @@ kinds of answers: a single figure with a label, a table of variable length, and 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Always look at what was retrieved before trusting an answer: <strong>retrieval sets the ceiling</strong> for the quality of
-the answer. If the right passage is not among the top chunks, no model can answer correctly from them.</p>
+<p>Check what was retrieved before relying on an answer. If the relevant passage is not among the top chunks, the
+model cannot answer the question correctly from them.</p>
 <h4 id="Stage-3:-Response-Generation">Stage 3: Response Generation<a class="anchor-link" href="#Stage-3:-Response-Generation">¶</a></h4><p>The final stage combines the question, the retrieved chunks (each labelled with its page) and an output schema per
 question. The model is told to use only the snippets, to cite the pages it used, and to say when the snippets do not
 contain the answer.</p>

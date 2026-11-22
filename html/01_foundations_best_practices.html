@@ -8283,7 +8283,7 @@ notebooks use <code>low</code>.</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <div style="background-color: #f2f2f2; border-left: 4px solid #888888; padding-left: 10px; padding-right: 10px; padding-bottom: 1px; padding-top: 6px;">
 <p style="font-weight: bold"><b>Note</b></p>
-<p><strong>Cost in perspective.</strong> At the list prices of November 2026, a call like the ones above costs a few hundredths of
+<p><strong>Cost.</strong> At the list prices of November 2026, a call like the ones above costs a few hundredths of
 a cent. Running <em>all</em> notebooks of this session once costs well under USD 0.50. Costs scale with volume, so estimate
 them before you run a job over a whole portfolio, and log the <code>usage</code> of every call. Current prices:
 <a href="https://developers.openai.com/api/docs/pricing">https://developers.openai.com/api/docs/pricing</a>.</p>
@@ -8395,7 +8395,7 @@ without rewriting code:</p>
 <span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">reply</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
 </pre></div>
-<h4 id="Local-versus-cloud:-a-deliberate-trade-off">Local versus cloud: a deliberate trade-off<a class="anchor-link" href="#Local-versus-cloud:-a-deliberate-trade-off">¶</a></h4><table>
+<h4 id="Local-versus-cloud">Local versus cloud<a class="anchor-link" href="#Local-versus-cloud">¶</a></h4><table>
 <thead>
 <tr>
 <th></th>
@@ -8823,7 +8823,7 @@ enforce it with a schema (notebook 02), keep the prompt under version control, a
 <li>An API call is a few lines of code: model, instructions, input, and optionally output length and reasoning effort.</li>
 <li>Every response reports its token usage, which makes cost transparent and predictable.</li>
 <li>Local open-weights models (Ollama) keep data in-house; cloud models are more capable. The code barely changes.</li>
-<li>Good prompts state role, task, delimiters and output format; few-shot examples beat long descriptions.</li>
+<li>Good prompts state role, task, delimiters and output format; a few examples often work better than a long description.</li>
 <li>LLMs hallucinate, have a knowledge cut-off and react to wording: verify, supply facts, and constrain outputs.</li>
 </ul>
 <p>The next notebooks build on these foundations, one technique at a time:</p>
