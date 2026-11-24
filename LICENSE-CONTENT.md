@@ -32,8 +32,10 @@ under their own terms, and re-use requires you to check those terms yourself.
 
 The name, logo, template, colour scheme and other branding of the European Actuarial Academy (EAA)
 are the property of the EAA. They are used with permission for this web session and are **not**
-licensed to you under CC BY 4.0 or MIT. This includes the EAA logo in the notebook headers and the
-slide template of the PDF in [`slides/`](slides/).
+licensed to you under CC BY 4.0 or MIT. This includes the EAA logo in the notebook headers.
+
+The slides of the web session are not part of this repository and are not licensed under CC BY 4.0
+or MIT. They are subject to the EAA's copyright and are available only to registered participants.
 
 ### 2. Article-derived material
 

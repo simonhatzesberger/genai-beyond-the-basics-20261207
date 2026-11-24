@@ -2,7 +2,10 @@
 
 Companion material for the **EAA Web Session E0595** of the European Actuarial Academy, held online on
 **7 December 2026, 09:00–12:10 CET**, by **Dr Simon Hatzesberger**: seven Jupyter notebooks, one per block of the
-programme, and the slides as a PDF.
+programme.
+
+**This repository is public until 21 December 2026** and will then be made private. Registered participants receive
+the slides of the web session from the European Actuarial Academy; they are not part of this repository.
 
 **You do not need to install anything to follow the session.** Every notebook is saved with its outputs, so you can
 read it right here on GitHub (click its name below) or as HTML (folder [`html/`](html/), download and open in a
@@ -21,8 +24,6 @@ browser). To *run* the code yourself, use the **Open in Colab** buttons, or a lo
 | 10:35–10:55 | [`04_fine_tuning`](notebooks/04_fine_tuning.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simonhatzesberger/genai-beyond-the-basics-20261207/blob/main/notebooks/04_fine_tuning.ipynb) | Claim-cause coding: the OpenAI supervised fine-tuning workflow (and its wind-down), plus a real LoRA fine-tuning run of a small open-weights model |
 | 10:55–11:15 | [`05_rag`](notebooks/05_rag.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simonhatzesberger/genai-beyond-the-basics-20261207/blob/main/notebooks/05_rag.ipynb) | Retrieval-augmented generation over an insurer's 458-page annual report: chunking, embeddings, retrieval, structured answers with source pages |
 | 11:15–12:10 | [`06_agentic_ai`](notebooks/06_agentic_ai.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simonhatzesberger/genai-beyond-the-basics-20261207/blob/main/notebooks/06_agentic_ai.ipynb) | A tool-using actuarial agent with guardrails; a multi-agent system of five agents (R analysis, translation, compilation, test runner, report) that migrates a legacy R chain-ladder script to Python, judged by a test suite on data the agents never see; outlook |
-
-The slides are in [`slides/`](slides/).
 
 ---
 
@@ -81,8 +82,7 @@ genai-beyond-the-basics-20261207/
 ├── notebooks/
 │   ├── 00_setup_check.ipynb … 06_agentic_ai.ipynb
 │   └── data/                 ← synthetic motor contracts, the mortality-table database, the R migration example (see data/README.md)
-├── html/                     ← the notebooks as HTML, for reading without Jupyter
-└── slides/                   ← the slides as a PDF
+└── html/                     ← the notebooks as HTML, for reading without Jupyter
 ```
 
 ---
@@ -108,11 +108,12 @@ pages for the current state.
 | What | Licence |
 |---|---|
 | Code | MIT, see [LICENSE](LICENSE) |
-| Notebook text, documentation, figures, slides (author's own content) | CC BY 4.0, see [LICENSE-CONTENT.md](LICENSE-CONTENT.md) |
+| Notebook text, documentation, figures (author's own content) | CC BY 4.0, see [LICENSE-CONTENT.md](LICENSE-CONTENT.md) |
 | Data in `notebooks/data/` | their own terms, see [notebooks/data/README.md](notebooks/data/README.md) |
 
-EAA branding, third-party documents (such as the annual report downloaded in `05_rag`) and installed packages are
-not covered by these licences.
+The slides of the web session are not part of this repository and are not covered by these licences; they are
+subject to the EAA's copyright and are available only to registered participants. EAA branding, third-party documents
+(such as the annual report downloaded in `05_rag`) and installed packages are not covered by these licences either.
 
 ## Contact
 
